@@ -1,0 +1,29 @@
+# TH2-HDT
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package bai;
+
+/**
+ *
+ * @author longv
+ */
+public class Main {
+      public static void main(String[] args) {
+    // Khởi tạo 5 tài khoản ngân hàng
+    Account acc1 = new Account();
+    Account acc2 = new Account(123456, "Pham Long Vu", 1000000);
+    Account acc3 = new Account(234567, "Tran Thi Cao    ", 500000);
+    Account acc4 = new Account(345678, "Le Van Luyện", 2000000);
+    Account acc5 = new Account(456789, "Pham Thi Dung", 300000);
+
+    // In thông tin của các tài khoản
+    System.out.println(acc1.toString());
+    System.out.println(acc2.toString());
+    System.out.println(acc3.toString());
+    System.out.println(acc4.toString());
+    System.out.println(acc5.toString());
+  }
+}
+
